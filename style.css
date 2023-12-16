@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.game{
+
+    width:250px;
+    text-align: center;
+    font-family: system-ui;
+    margin: 20px auto;
+    background-color: antiquewhite;
+}
+
+.title{
+     color: aliceblue;
+     background-color: crimson;
+     padding: 4px 10;
+     width: 100%;
+     font-weight: 700;
+     font-size: 15px;
+
+    
+}
+
+.title span{
+    color: rgb(251, 227, 11);   
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: crimson; 
+     float: left;
+     margin-left: 3px;
+     margin-top: 2px;
+     font-size: 80px;
+     line-height: 80px;
+     color: azure;
+     font-weight: 400;
+}
+.square:hover{
+ background-color: black;
+ cursor: pointer;
+}
